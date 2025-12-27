@@ -1,17 +1,22 @@
-# My Arch dotfiles 💾
+# My Dotfiles 💾
 
-> Dotfiles for an Arch Linux + KDE Plasma setup.
+> Dotfiles for an Arch Linux + KDE Plasma setup and Windows 11 (avoid this OS).
 
 ![Depressive Lain in computer](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages5.alphacoders.com%2F106%2Fthumb-1920-1061607.png&f=1&nofb=1&ipt=4c794d5a3ea2804ad981cf93f19e61b336497e869ab255aee9b6b8b07b42cc8a)
 
 ---
 
-> ### 💿 **HOW IT LOOKS**
+> ### 💿 **HOW IT LOOKS ON LINUX**
 <p align="center">
-  <img src="Primary display.png" width="45%">
-  <img src="Second display.png" width="45%">
+  <img src="Arch\primary-display-linux.png" width="45%">
+  <img src="Arch\second-display-linux.png" width="45%">
 </p>
----
+
+> ### 💿 **HOW IT LOOKS ON WINDOWS**
+<p align="center">
+  <img src="Windows\primary-display-windows.png" width="45%">
+  <img src="Windows\second-display-windows.png" width="45%">
+</p>
 
 ---
 > ## 🧩 **SYSTEM OVERVIEW**
@@ -21,7 +26,7 @@
 > - DE: KDE Plasma 6.5.4
 > - WM: Kwin (Wayland)
 > - WM Theme: plastik
-> - Theme: Windwos (CachyOSNordLightly) [Qt], BreezeDark [GTK2], Breeze [GTK3]
+> - Theme: Windows (CachyOSNordLightly) [Qt], BreezeDark [GTK2], Breeze [GTK3]
 > - Icons: breeze-dark [QT], breeze-dark [GTK2/3/4]
 > - Cursor: WindowsClassicBlack (32px)
 > - Font: Terminus (11pt) [Qt], Terminus (11pt) [GTK2/3/4]
