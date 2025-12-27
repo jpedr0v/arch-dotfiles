@@ -1,0 +1,21 @@
+My personal setup and wallpaper's URLs will be here until I find a better way to back them up.
+
+Playback
+Other application focused: Keep running
+Other application maximized: Pause per monitor
+Other application fullscreen: Pause per meonitor
+Other application playing audio: Mute
+Display asleep: Stop (free memory)
+
+Quality
+FPS: 30
+Anti-aliasing: MSAA x2
+Post-processing: Ultra
+Texture resolution: High Quality
+Shadows: Ultra
+Volumetric lighting: Ultra
+Reflection: Enabled
+
+First display: https://steamcommunity.com/sharedfiles/filedetails/?id=971698229
+
+Second display: https://steamcommunity.com/sharedfiles/filedetails/?id=3145514603
