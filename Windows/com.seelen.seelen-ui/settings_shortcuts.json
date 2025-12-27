@@ -1,0 +1,1127 @@
+{
+  "enabled": true,
+  "appCommands": [
+    {
+      "id": "9162564e-36ef-4058-ac4a-88626799cd45",
+      "action": {
+        "name": "toggle_launcher"
+      },
+      "keys": [
+        "Win",
+        "S"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/launcher"
+    },
+    {
+      "id": "e74f0107-60a9-468d-8880-60efff3b02c8",
+      "action": {
+        "name": "task_next",
+        "select_on_key_up": true
+      },
+      "keys": [
+        "Alt",
+        "Tab"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/task-switcher"
+    },
+    {
+      "id": "34de0930-9406-4934-8e8f-c4810963dc7b",
+      "action": {
+        "name": "task_prev",
+        "select_on_key_up": true
+      },
+      "keys": [
+        "Alt",
+        "Shift",
+        "Tab"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/task-switcher"
+    },
+    {
+      "id": "a714c276-24c9-406b-81ad-f2cb83a7f6fe",
+      "action": {
+        "name": "task_next",
+        "select_on_key_up": false
+      },
+      "keys": [
+        "Alt",
+        "Ctrl",
+        "Tab"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/task-switcher"
+    },
+    {
+      "id": "9b64eb32-3bcb-43e3-9e50-7a4ecbf5ac12",
+      "action": {
+        "name": "task_prev",
+        "select_on_key_up": false
+      },
+      "keys": [
+        "Alt",
+        "Ctrl",
+        "Shift",
+        "Tab"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/task-switcher"
+    },
+    {
+      "id": "2a28e68f-e6ad-4f33-a4d2-8e6864ac85ec",
+      "action": {
+        "name": "pause_tiling"
+      },
+      "keys": [
+        "Win",
+        "P"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "25c8c1e4-a150-45c6-9be5-304613ab5b97",
+      "action": {
+        "name": "toggle_float"
+      },
+      "keys": [
+        "Win",
+        "F"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "6ac688f0-7756-469d-9d31-f1548d04bdba",
+      "action": {
+        "name": "toggle_monocle"
+      },
+      "keys": [
+        "Win",
+        "M"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "8204be13-3f2c-4051-a163-d75e009d7dd3",
+      "action": {
+        "name": "cycle_stack_next"
+      },
+      "keys": [
+        "Win",
+        "Alt",
+        "Right"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "26c047d1-255f-4d06-ba59-51e9c2b711ce",
+      "action": {
+        "name": "cycle_stack_prev"
+      },
+      "keys": [
+        "Win",
+        "Alt",
+        "Left"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "d6c5930b-7c28-4783-80a5-d8716bc0f471",
+      "action": {
+        "name": "reserve_top"
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "I"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "1f7f512b-92d7-4f10-b480-29b747807b0d",
+      "action": {
+        "name": "reserve_bottom"
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "K"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "aa4b8442-785c-4aa3-b0d6-1e996ef0dd8a",
+      "action": {
+        "name": "reserve_left"
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "J"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "672ac1b6-dfb4-4eb6-92f0-3ae427c26b02",
+      "action": {
+        "name": "reserve_right"
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "L"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "e5fc907c-be77-4562-b998-b22afbf85947",
+      "action": {
+        "name": "reserve_float"
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "U"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "eed6fe44-e602-4ad7-9463-9a4681d7dc62",
+      "action": {
+        "name": "reserve_stack"
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "O"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "cc3f4625-4a07-4c28-9769-d6f17b8f71d3",
+      "action": {
+        "name": "focus_top"
+      },
+      "keys": [
+        "Alt",
+        "I"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "a173659f-d08b-44a0-bde5-bd226beada97",
+      "action": {
+        "name": "focus_bottom"
+      },
+      "keys": [
+        "Alt",
+        "K"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "3a0e10bb-3710-451f-b1f4-e353eca9b2ca",
+      "action": {
+        "name": "focus_left"
+      },
+      "keys": [
+        "Alt",
+        "J"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "c62cfb68-e8bf-4b19-9e5b-1bbd35c8eb57",
+      "action": {
+        "name": "focus_right"
+      },
+      "keys": [
+        "Alt",
+        "L"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "6a901527-a3d0-47fb-8db5-c5449d36f22e",
+      "action": {
+        "name": "increase_width"
+      },
+      "keys": [
+        "Win",
+        "Alt",
+        "="
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "bab3d35e-70b8-45d4-b49d-57431db50ac6",
+      "action": {
+        "name": "decrease_width"
+      },
+      "keys": [
+        "Win",
+        "Alt",
+        "-"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "a36fac8e-55b3-403e-b3be-7642c2a2e9be",
+      "action": {
+        "name": "increase_height"
+      },
+      "keys": [
+        "Win",
+        "Ctrl",
+        "="
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "19e091e6-92a6-4823-b439-12b817d86f67",
+      "action": {
+        "name": "decrease_height"
+      },
+      "keys": [
+        "Win",
+        "Ctrl",
+        "-"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "66eb897a-286c-4b55-bfce-7505f0f282c2",
+      "action": {
+        "name": "restore_sizes"
+      },
+      "keys": [
+        "Win",
+        "Alt",
+        "0"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "bbdc86cb-b8bb-4ad8-ba6d-59eca3970169",
+      "action": {
+        "name": "move_window_up"
+      },
+      "keys": [
+        "Shift",
+        "Alt",
+        "I"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "68a5c7f6-7419-4153-a20f-6e68690f86f7",
+      "action": {
+        "name": "move_window_down"
+      },
+      "keys": [
+        "Shift",
+        "Alt",
+        "K"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "78d2f607-de5d-496c-9ad9-c404c44618f5",
+      "action": {
+        "name": "move_window_left"
+      },
+      "keys": [
+        "Shift",
+        "Alt",
+        "J"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "8dcced5b-03bd-4316-b1cb-9218a9692d5f",
+      "action": {
+        "name": "move_window_right"
+      },
+      "keys": [
+        "Shift",
+        "Alt",
+        "L"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": "@seelen/window-manager"
+    },
+    {
+      "id": "e800120b-e2ac-4c18-8a07-2d4f1d012058",
+      "action": {
+        "name": "switch_to_next_workspace"
+      },
+      "keys": [
+        "Ctrl",
+        "Win",
+        "Right"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": null
+    },
+    {
+      "id": "83c3ec8a-cc45-4b19-9d10-613a3d1c78e8",
+      "action": {
+        "name": "switch_to_previous_workspace"
+      },
+      "keys": [
+        "Ctrl",
+        "Win",
+        "Left"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": null
+    },
+    {
+      "id": "feff0447-2479-430a-bd89-25e7d3ffe33b",
+      "action": {
+        "name": "create_new_workspace"
+      },
+      "keys": [
+        "Ctrl",
+        "Win",
+        "D"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": null
+    },
+    {
+      "id": "d7ce1a6b-9141-4eac-9551-965859b93977",
+      "action": {
+        "name": "destroy_current_workspace"
+      },
+      "keys": [
+        "Ctrl",
+        "Win",
+        "F4"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": null
+    },
+    {
+      "id": "eada9c72-6a8e-4358-bc72-7ee3f732acfe",
+      "action": {
+        "name": "toggle_workspaces_view"
+      },
+      "keys": [
+        "Win",
+        "Tab"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/workspaces-viewer"
+    },
+    {
+      "id": "7f73c0a1-2bbe-41c4-a785-5bfe2ad66020",
+      "action": {
+        "name": "cycle_wallpaper_next"
+      },
+      "keys": [
+        "Ctrl",
+        "Win",
+        "Up"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "99bb90f7-17dd-4aca-a9da-de60811c1333",
+      "action": {
+        "name": "cycle_wallpaper_prev"
+      },
+      "keys": [
+        "Ctrl",
+        "Win",
+        "Down"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "f6ac49c9-02aa-4fe2-ba9f-5899784d347a",
+      "action": {
+        "name": "misc_open_settings"
+      },
+      "keys": [
+        "Win",
+        "K"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "4397a40c-0b8d-4b30-afcd-c732ddea2998",
+      "action": {
+        "name": "misc_force_restart"
+      },
+      "keys": [
+        "Ctrl",
+        "Win",
+        "Alt",
+        "R"
+      ],
+      "readonly": true,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "1f368152-28a4-4acc-86ad-5c7c4ad33f0a",
+      "action": {
+        "name": "misc_force_quit"
+      },
+      "keys": [
+        "Ctrl",
+        "Win",
+        "Alt",
+        "K"
+      ],
+      "readonly": true,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "3ec791b3-d4c0-43c4-8c22-13b43a1b1b4c",
+      "action": {
+        "name": "start_weg_app",
+        "index": 0
+      },
+      "keys": [
+        "Win",
+        "1"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/weg"
+    },
+    {
+      "id": "2647cfa7-f5f8-4a1a-9a44-5c689e9b156c",
+      "action": {
+        "name": "switch_workspace",
+        "index": 0
+      },
+      "keys": [
+        "Alt",
+        "1"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "dfea3243-ada7-45c9-9fa0-117034279e65",
+      "action": {
+        "name": "move_to_workspace",
+        "index": 0
+      },
+      "keys": [
+        "Alt",
+        "Shift",
+        "1"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "2c2d7a3f-1ab5-4125-9a83-6010d48d68b2",
+      "action": {
+        "name": "send_to_workspace",
+        "index": 0
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "1"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "5dfd6780-facc-4258-a8b7-f00c883d3bb5",
+      "action": {
+        "name": "start_weg_app",
+        "index": 1
+      },
+      "keys": [
+        "Win",
+        "2"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/weg"
+    },
+    {
+      "id": "86df2d70-1332-4450-8151-78180c663f79",
+      "action": {
+        "name": "switch_workspace",
+        "index": 1
+      },
+      "keys": [
+        "Alt",
+        "2"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "213aee71-54de-46fd-be33-93371db76a68",
+      "action": {
+        "name": "move_to_workspace",
+        "index": 1
+      },
+      "keys": [
+        "Alt",
+        "Shift",
+        "2"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "3866f538-3d74-4f29-9e64-9a666aad90d0",
+      "action": {
+        "name": "send_to_workspace",
+        "index": 1
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "2"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "0508a235-2539-4d46-b24f-5ac736dbb077",
+      "action": {
+        "name": "start_weg_app",
+        "index": 2
+      },
+      "keys": [
+        "Win",
+        "3"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/weg"
+    },
+    {
+      "id": "fae9bd24-ea76-455b-b3cc-78e0260fb866",
+      "action": {
+        "name": "switch_workspace",
+        "index": 2
+      },
+      "keys": [
+        "Alt",
+        "3"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "508ff098-aedc-439c-82c0-836ee804d199",
+      "action": {
+        "name": "move_to_workspace",
+        "index": 2
+      },
+      "keys": [
+        "Alt",
+        "Shift",
+        "3"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "eeb63c50-18e8-4426-946b-33052f43147d",
+      "action": {
+        "name": "send_to_workspace",
+        "index": 2
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "3"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "7ab2aea7-9741-4883-8c2e-d40a9d196684",
+      "action": {
+        "name": "start_weg_app",
+        "index": 3
+      },
+      "keys": [
+        "Win",
+        "4"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/weg"
+    },
+    {
+      "id": "227c0121-8f52-4dc3-a83a-99df1f25f74c",
+      "action": {
+        "name": "switch_workspace",
+        "index": 3
+      },
+      "keys": [
+        "Alt",
+        "4"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "b087f2f7-0f98-46b1-8c76-8747fbfc8b29",
+      "action": {
+        "name": "move_to_workspace",
+        "index": 3
+      },
+      "keys": [
+        "Alt",
+        "Shift",
+        "4"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "cbae0303-b56d-4127-90e4-1365d2a0161a",
+      "action": {
+        "name": "send_to_workspace",
+        "index": 3
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "4"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "25cd18e4-1302-4cc2-a2a2-8ab1857bf3ae",
+      "action": {
+        "name": "start_weg_app",
+        "index": 4
+      },
+      "keys": [
+        "Win",
+        "5"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/weg"
+    },
+    {
+      "id": "aea32706-cc60-4b0a-994f-f12fe8d41de4",
+      "action": {
+        "name": "switch_workspace",
+        "index": 4
+      },
+      "keys": [
+        "Alt",
+        "5"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "93d6ce9c-f55a-460c-9cb7-041d62a1f306",
+      "action": {
+        "name": "move_to_workspace",
+        "index": 4
+      },
+      "keys": [
+        "Alt",
+        "Shift",
+        "5"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "b895cf60-ee30-47fa-878a-7c63fa93cbce",
+      "action": {
+        "name": "send_to_workspace",
+        "index": 4
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "5"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "be135e4d-f646-4233-a200-f3d5d58b5f97",
+      "action": {
+        "name": "start_weg_app",
+        "index": 5
+      },
+      "keys": [
+        "Win",
+        "6"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/weg"
+    },
+    {
+      "id": "fd6e5681-1149-48be-b0a1-1981e65f3c20",
+      "action": {
+        "name": "switch_workspace",
+        "index": 5
+      },
+      "keys": [
+        "Alt",
+        "6"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "ee0b273a-0b35-40d6-a5d7-7f2fd93923ff",
+      "action": {
+        "name": "move_to_workspace",
+        "index": 5
+      },
+      "keys": [
+        "Alt",
+        "Shift",
+        "6"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "ceb6fa18-f9db-45dd-95b2-1c890aae0581",
+      "action": {
+        "name": "send_to_workspace",
+        "index": 5
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "6"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "2fca7c4a-980c-4fc5-979f-52bb9bde3ced",
+      "action": {
+        "name": "start_weg_app",
+        "index": 6
+      },
+      "keys": [
+        "Win",
+        "7"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/weg"
+    },
+    {
+      "id": "e91f0bc2-1d2e-467a-a04a-30d39799a634",
+      "action": {
+        "name": "switch_workspace",
+        "index": 6
+      },
+      "keys": [
+        "Alt",
+        "7"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "fd95bf0e-a946-4643-99d0-56e59dc1c81c",
+      "action": {
+        "name": "move_to_workspace",
+        "index": 6
+      },
+      "keys": [
+        "Alt",
+        "Shift",
+        "7"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "020437b2-76ca-4336-9610-79e9f2221c3d",
+      "action": {
+        "name": "send_to_workspace",
+        "index": 6
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "7"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "d2717cae-1c1c-4801-b7fb-75332317d1d3",
+      "action": {
+        "name": "start_weg_app",
+        "index": 7
+      },
+      "keys": [
+        "Win",
+        "8"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/weg"
+    },
+    {
+      "id": "4a33c5b3-240e-4596-becf-fd1a5437fb1b",
+      "action": {
+        "name": "switch_workspace",
+        "index": 7
+      },
+      "keys": [
+        "Alt",
+        "8"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "9705dbe7-9872-43fe-ac86-5d050ce8eb17",
+      "action": {
+        "name": "move_to_workspace",
+        "index": 7
+      },
+      "keys": [
+        "Alt",
+        "Shift",
+        "8"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "caaa4ae5-3f7d-401c-9fa0-2457708b30c1",
+      "action": {
+        "name": "send_to_workspace",
+        "index": 7
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "8"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "1240a91e-6060-46fd-a7d9-febd51342251",
+      "action": {
+        "name": "start_weg_app",
+        "index": 8
+      },
+      "keys": [
+        "Win",
+        "9"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/weg"
+    },
+    {
+      "id": "16ed5585-5f87-47a4-bb78-721e91136220",
+      "action": {
+        "name": "switch_workspace",
+        "index": 8
+      },
+      "keys": [
+        "Alt",
+        "9"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "86e0678f-eb25-4e57-81e0-d132f9e3fc8d",
+      "action": {
+        "name": "move_to_workspace",
+        "index": 8
+      },
+      "keys": [
+        "Alt",
+        "Shift",
+        "9"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "36cbf5da-877c-416f-a6a6-ed1e6ea3f1aa",
+      "action": {
+        "name": "send_to_workspace",
+        "index": 8
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "9"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "529f40b1-8cc7-4f19-9897-464a7faea618",
+      "action": {
+        "name": "start_weg_app",
+        "index": 9
+      },
+      "keys": [
+        "Win",
+        "0"
+      ],
+      "readonly": false,
+      "system": true,
+      "attached_to": "@seelen/weg"
+    },
+    {
+      "id": "231abd66-46e7-4043-ae2a-a3ee0d99cb3e",
+      "action": {
+        "name": "switch_workspace",
+        "index": 9
+      },
+      "keys": [
+        "Alt",
+        "0"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "aff14d02-dd6e-4fc6-885e-57a61b1ed840",
+      "action": {
+        "name": "move_to_workspace",
+        "index": 9
+      },
+      "keys": [
+        "Alt",
+        "Shift",
+        "0"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    },
+    {
+      "id": "78391983-4a7a-407b-b8f2-0efd72f931dd",
+      "action": {
+        "name": "send_to_workspace",
+        "index": 9
+      },
+      "keys": [
+        "Win",
+        "Shift",
+        "0"
+      ],
+      "readonly": false,
+      "system": false,
+      "attached_to": null
+    }
+  ]
+}

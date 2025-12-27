@@ -1,0 +1,63 @@
+isReorderDisabled: false
+left:
+- type: StartMenu
+  id: 135db0ad-7501-4122-9bb0-ec691d077c9f
+center:
+- type: Pinned
+  id: 020f28b4-690d-48fe-b084-582fff5650d2
+  subtype: App
+  umid: null
+  path: C:\Windows\explorer.exe
+  relaunchProgram: C:\Windows\explorer.exe
+  relaunchArgs: null
+  relaunchIn: null
+  displayName: Explorer
+  windows: []
+  pinDisabled: false
+- type: Pinned
+  id: d7b89c73-2b0c-4a7e-b395-3740158f34be
+  subtype: App
+  umid: null
+  path: C:\Windows\System32\Taskmgr.exe
+  relaunchProgram: C:\Windows\System32\Taskmgr.exe
+  relaunchArgs: null
+  relaunchIn: null
+  displayName: Task Manager
+  windows: []
+  pinDisabled: false
+- type: Pinned
+  id: 425d1af7-02d9-4395-bf1d-4bff7b0e0678
+  subtype: App
+  umid: Microsoft.WindowsTerminal_8wekyb3d8bbwe!App
+  path: C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.23.13503.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe
+  relaunchProgram: C:\Windows\explorer.exe
+  relaunchArgs: shell:AppsFolder\Microsoft.WindowsTerminal_8wekyb3d8bbwe!App
+  relaunchIn: null
+  displayName: Terminal
+  windows: []
+  pinDisabled: false
+- type: Pinned
+  id: 567b3af6-4663-4a8b-828a-6dad36a0d282
+  subtype: App
+  umid: 83C1C0F3FA8524B1
+  path: C:\Program Files\LibreWolf\librewolf.exe
+  relaunchProgram: C:\Program Files\LibreWolf\librewolf.exe
+  relaunchArgs: null
+  relaunchIn: null
+  displayName: LibreWolf
+  windows: []
+  pinDisabled: false
+- type: Pinned
+  id: 22c5c661-050d-4def-a4bd-4906dd1d5350
+  subtype: App
+  umid: windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel
+  path: C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+  relaunchProgram: C:\Windows\explorer.exe
+  relaunchArgs: shell:AppsFolder\windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel
+  relaunchIn: null
+  displayName: Settings
+  windows: []
+  pinDisabled: false
+right:
+- type: Media
+  id: cb815846-1f59-40c9-aa13-c51f2ce73252

@@ -1,0 +1,136 @@
+{
+  "activeIconPacks": [
+    "@system/icon-pack",
+    "@k-ivy/start-icon-faq"
+  ],
+  "activeThemes": [
+    "@default/theme",
+    "@eythaann/bubbles",
+    "@eythaann/dock-wave-animation"
+  ],
+  "byTheme": {
+    "@tanours/Material-style": {}
+  },
+  "byWallpaper": {},
+  "byWidget": {
+    "@eythaann/desktop-media-player": {
+      "enabled": true,
+      "locked": false
+    },
+    "@seelen/fancy-toolbar": {
+      "delayToHide": 800,
+      "delayToShow": 100,
+      "enabled": true,
+      "height": 30,
+      "hideMode": "OnOverlap",
+      "position": "Top"
+    },
+    "@seelen/launcher": {
+      "enabled": false,
+      "monitor": "MouseOver",
+      "runners": [
+        {
+          "id": "RUN",
+          "label": "t:app_launcher.runners.explorer",
+          "program": "explorer.exe",
+          "readonly": true
+        },
+        {
+          "id": "CMD",
+          "label": "t:app_launcher.runners.cmd",
+          "program": "cmd.exe",
+          "readonly": true
+        }
+      ]
+    },
+    "@seelen/wallpaper-manager": {
+      "backgroundsV2": [],
+      "enabled": false,
+      "interval": 60,
+      "randomize": false
+    },
+    "@seelen/weg": {
+      "delayToHide": 800,
+      "delayToShow": 100,
+      "enabled": true,
+      "hideMode": "OnOverlap",
+      "margin": 8,
+      "mode": "MinContent",
+      "padding": 8,
+      "pinnedItemsVisibility": "Always",
+      "position": "Bottom",
+      "showEndTask": false,
+      "showInstanceCounter": true,
+      "showWindowTitle": false,
+      "size": 40,
+      "spaceBetweenItems": 8,
+      "temporalItemsVisibility": "All",
+      "thumbnailGenerationEnabled": true,
+      "visibleSeparators": false,
+      "zoomSize": 70
+    },
+    "@seelen/window-manager": {
+      "animations": {
+        "durationMs": 200,
+        "easeFunction": "EaseOut",
+        "enabled": false
+      },
+      "autoStackingByCategory": true,
+      "border": {
+        "enabled": true,
+        "offset": 0.0,
+        "width": 3.0
+      },
+      "defaultLayout": "@default/wm-bspwm",
+      "enabled": true,
+      "floating": {
+        "height": 500.0,
+        "width": 800.0
+      },
+      "resizeDelta": 10.0,
+      "workspaceGap": 10,
+      "workspaceMargin": {
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "workspacePadding": 10
+    }
+  },
+  "dateFormat": "ddd D MMM, hh:mm A",
+  "devTools": false,
+  "drpc": false,
+  "language": "en",
+  "monitorsV3": {
+    "LEN60BCVA285350_0B_07E4_6B": {
+      "byWidget": {
+        "@seelen/fancy-toolbar": {
+          "enabled": true
+        },
+        "@seelen/weg": {
+          "enabled": true
+        },
+        "@seelen/window-manager": {
+          "enabled": true
+        }
+      }
+    },
+    "SUE2412000000000000_28_07E6_9E": {
+      "byWidget": {
+        "@seelen/window-manager": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "oldActiveThemes": [],
+  "performanceMode": {
+    "default": "Disabled",
+    "onBattery": "Minimal",
+    "onEnergySaver": "Extreme"
+  },
+  "updater": {
+    "channel": "Release"
+  }
+}

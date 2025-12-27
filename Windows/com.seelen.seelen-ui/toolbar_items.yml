@@ -1,0 +1,34 @@
+isReorderDisabled: false
+left:
+  - '@default/user-folder'
+  - type: Text
+    id: f5979ee6-483d-41d3-8f2d-d0b880e765f3
+    template: return "|"
+    tooltip: null
+    badge: null
+    onClick: null
+    onClickV2: null
+    style: {}
+    remoteData: {}
+  - '@default/focused-app'
+  - type: Generic
+    id: e2f6b391-8692-4f46-9e0d-b4246057173a
+    template: 'return window.title ? "-" : ""'
+    tooltip: null
+    badge: null
+    onClick: null
+    onClickV2: null
+    style: {}
+    remoteData: {}
+  - '@default/focused-app-title'
+center:
+  - '@default/date'
+right:
+  - '@eythaann/toolbar-weather'
+  - '@scadane/btcwidget'
+  - '@seelen/tb-system-tray'
+  - '@default/keyboard'
+  - '@default/network'
+  - '@default/media'
+  - '@seelen/tb-quick-settings'
+  - '@default/notifications'
